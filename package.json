@@ -6,10 +6,16 @@
 		"type": "git",
 		"url": "https://github.com/beyondjs/ai-server"
 	},
+	"libraries": {
+		"imports": [
+			"@beyond-js/api-server",
+			"@beyond-js/ai-tools"
+		]
+	},
 	"dependencies": {
 		"@beyond-js/kernel": "~0.1.9",
-		"@beyond-js/api-server": "~0.0.1",
-		"@beyond-js/ai-tools": "~0.0.1",
+		"@beyond-js/api-server": "~0.0.2",
+		"@beyond-js/ai-tools": "~0.0.2",
 		"dotenv": "~16.3.1"
 	},
 	"devDependencies": {
