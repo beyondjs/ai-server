@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/beyondjs/ai-server"
 	},
-	"libraries": {
+	"_libraries": {
 		"imports": [
 			"@beyond-js/api-server",
 			"@beyond-js/ai-tools"
