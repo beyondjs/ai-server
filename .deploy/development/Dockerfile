@@ -6,6 +6,8 @@ FROM node:18 AS build-stage
 # Set the working directory in the container
 WORKDIR /app
 
+RUN LS
+
 # Copy the package files first to leverage Docker cache
 COPY package*.json ./
 
