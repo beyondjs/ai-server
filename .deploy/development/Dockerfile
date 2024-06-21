@@ -19,7 +19,7 @@ COPY . .
 RUN npm i -g beyond@1.2.1
 
 # Build the project
-RUN beyond build --pkg=@aimpact/ailearn-api --distribution=node --logs
+RUN beyond build --pkg=@beyond-js/ai-server --distribution=node --logs
 
 
 # ------------------------------
